@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/horario.css">
+</head>
+<body>
+    <table> 
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- añadimos el rowspan para unir celdas y el class para poder modificarlas en el styles-->
+            <tr>
+                <td>8:15 - 9:15</td>
+                <td rowspan="2" class="programacion">Programación</td>
+                <td class="ipe">IPE</td>
+                <td rowspan="2" class="entornosdedesarrollo">Entornos de Desarrollo</td>
+                <td rowspan="2" class="programacion">Programación</td>
+                <td rowspan="2" class="basedatos">Base de Datos</td>
+            </tr>
+            <tr>
+                <td>9:15 - 10:15</td>
+                <td class="entornosdedesarrollo">Entornos de Desarrollo</td>
+            </tr>
+            <tr>
+                <td>10:15 - 11:15</td>
+                <td class="basedatos">Base de Datos</td>
+                <td class="lenguajedemarcas">Lenguaje de marcas</td>
+                <td class="basedatos">Base de Datos</td>
+                <td class="ipe">IPE</td>
+                <td class="sostenibilidadaplicada">Sostenibilidad Aplicada</td>
+            </tr>
+            <tr>
+                <td>11:15 - 11:45</td>
+                <td colspan="5" class="recreo">RECREO</td>
+            </tr>
+            <tr>
+                <td>11:45 - 12:45</td>
+                <td class="basedatos">Base de Datos</td>
+                <td rowspan="3" class="programacion">Programación</td>
+                <td class="basedatos">Base de Datos</td>
+                <td rowspan="2" class="lenguajedemarcas">Lenguaje de Marcas</td>
+                <td class="ipe">IPE</td>
+            </tr>
+            <tr>
+                <td>12:45 - 13:45</td>
+                <td rowspan="2" class="sistemasinformáticos">Sistemas Informáticos</td>
+                <td rowspan="2" class="sistemasinformáticos">Sistemas Informáticos</td>
+                <td class="sistemasinformáticos">Sistemas Informáticos</td>
+                
+            </tr>
+            <tr>
+                <td>13:45 - 14:45</td>
+                <td class="digitalizaciónaplicada">Digitalización Aplicada</td>
+                <td class="programacion">Programación</td>
+            </tr>
+    </table>
+
+    <footer> <a href="./index.html">volver</a></footer>
+</body>
+</html>

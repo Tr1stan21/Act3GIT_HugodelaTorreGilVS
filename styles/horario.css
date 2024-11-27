@@ -1,0 +1,87 @@
+/* Esto sirve para cambiarle la fuente a toda la tabla*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* En este paso añadimos los bordes, hacemos que estos esten juntos, le cambiamos el fondo a la cabecera y 
+cambiamos el tamaño de la tabla */
+
+table {
+    padding: auto;
+    width: 80%; /* La tabla ocupará el 60% del ancho del contenedor */
+    max-width: 800px; /* Limitar el tamaño máximo a 800px para pantallas grandes */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    transition: transform 0.3s ease;
+}
+
+td:hover {
+    transform: scale(1.1); /* Incrementa el tamaño de la celda */
+}
+
+th {
+    background-color: grey;
+}
+td {
+    background-color: grey;
+    height: 50px;
+}
+
+/* En el recreo en especifico, a parte de cambiar el color de fondo, he aumentado el espacio entre letras de la 
+palabra recreo*/
+
+.recreo {
+    background-color: rgb(91, 58, 223);
+    letter-spacing: 100px;
+}
+
+/* De aquí en adelante simplemente se ha cambiado el color de fondo de las letras de cada asignatura */
+
+.programacion{
+    background-color: orange;
+}
+
+.entornosdedesarrollo{
+    background-color: red;
+}
+
+.basedatos{
+    background-color: rgb(12, 134, 227);
+}
+
+.sistemasinformáticos{
+    background-color: green;
+}
+
+.ipe{
+    background-color: rgb(154, 33, 154);
+}
+
+.lenguajedemarcas{
+    background-color: palevioletred;
+}
+
+.digitalizaciónaplicada{
+    background-color: brown;
+}
+
+.sostenibilidadaplicada{
+    background-color: rgb(240, 68, 10);
+}
+
+
+footer{
+    padding: auto;
+    text-align: center;
+    background-color: aquamarine;
+}
